@@ -16,13 +16,19 @@
         <div class="filler">
         </div>
         <div>
-            <a href="#about-me">About me</a>
+            <a href="#about-me">
+                <h2>About me</h2>
+            </a>
         </div>
         <div>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">
+                <h2>Portfolio</h2>
+            </a>
         </div>
         <div>
-            <a href="#contact">Contact</a>
+            <a href="#contact">
+                <h2>Contact</h2>
+            </a>
         </div>
     </div>
 </header>
@@ -33,32 +39,55 @@
 </section>
 <main>
     <div class="flex-column">            
-        <div>
-            <h4 id="about-me">About me</h4>
+        <div class="topic-header">
+            <h3 id="about-me">About me</h3>
         </div>
         <div class="flex-row">
             <div>
                 <img id="human" src="public/images/FullSizeR.jpg" alt="Graduation photo" width=500 height=600>
             </div>
-            <div class="filler"></div>
             <div id="my-story">
-                <h3>My story</h3>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eos illo? Necessitatibus, cumque veniam omnis minima ex, porro deserunt facere quidem adipisci quia minus natus, pariatur officia fugit suscipit cupiditate.</p>
+                <h4>My story</h4>
+                <div>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eos illo? Necessitatibus, cumque veniam omnis minima ex, porro deserunt facere quidem adipisci quia minus natus, pariatur officia fugit suscipit cupiditate.</p>
+                </div>
             </div>
         </div>
-        <div>
+        <div class="topic-header">
             <h3 id="portfolio">Portfolio</h3>  
         </div>
         <div class="flex-row">
-            <a href="https://rmartin1985.github.io/plan-my-day/">
-                <img src="./public/images/Plan-my-day image.png">
-            </a>
+            <div>
+                <a href="https://rmartin1985.github.io/plan-my-day/">
+                    <img src="./public/images/Plan-my-day image.png">
+                </a>
+            </div>
+            <div>
+                <a href="https://obscure-ravine-58128.herokuapp.com/">
+                    <img src="public/images/Spoiler-Alert.png">
+                </a>
+            </div>
         </div>
-        <div>
+        <div class="topic-header">
             <h3 id="contact">Contact</h3>
         </div>
-        <a href="https://github.com/RayceWheat">Github</a>
-        <a href="mailto: RayceWheat@Gmail.com">RayceWheat@Gmail.com</a>
+        <div class="flex-row">
+            <div>
+                <a href="https://github.com/RayceWheat">
+                    <h4>
+                        Github
+                    </h4>
+                </a>
+            </div>
+            <div></div>
+            <div>
+                <a href="mailto: RayceWheat@Gmail.com">
+                    <h4>
+                        RayceWheat@Gmail.com
+                    </h4>
+                </a>
+            </div>
+        </div>
     </div>
 </main>
 <footer>
@@ -66,5 +95,6 @@
         Bulit with love by Rayce Wheat
     </div>
 </footer>
+<script src="js.js"></script>
 </body>
 </html>

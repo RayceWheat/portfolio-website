@@ -1,10 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("./public/images/background-image.png");
+}
+
+#header {
+    justify-content: end;
+    background-color: #6B9B8A;
+    color: #F8F8F6;
+    width: 100%;
+}
+
+#header > div > a > h2 {
+    color: #F8F8F6;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+    justify-content: center;
+}
+
+#hero > img {
+    max-width: 100%;
+    object-fit: cover;
+    padding-top: 25px;
+}
+
+#my-story {
+    text-align: center;
+    font-size: large;
+}
+
+#footer {
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: end;
+    background-color: #6B9B8A;
+    color: #F8F8F6;
+}
+
+.topic-header {
+    background-color: #6B9B8A;
+    width: 90%;
+    text-align: center;
+}
+
+.topic-header > h3 {
+    color: #F8F8F6;
+}
+
+p {
+    margin: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: x-large;
+}
+
+h3, h4 {
+    font-size: x-large;
+}
+
+/* Utility */
+
 .flex-container {
     display: flex;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .flex-container > div {
-    padding: 20px;
+    padding: 20px; 
     
 }
 
@@ -15,32 +92,36 @@
     margin-right: 150px;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
     height: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: flex-start;
     gap: 10px;
-
+    background-color:  	#3B0918;
+    color: #C9B1C6;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#header {
-    justify-content: end;
+.flex-row > div > a > h4 {
+    color: #C9B1C6;
 }
+
+.flex-row > div {
+    color: #C9B1C6;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
 
 .filler {
     flex-grow: 1;
 }
-
-img {
-    max-width: 100%;
-}
-
-#my-story {
-    text-align: center;
-}
-
