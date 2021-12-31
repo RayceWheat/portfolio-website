@@ -1,5 +1,5 @@
 # Rayce Wheat's Personal Website
-![Image](https://raw.githubusercontent.com/RayceWheat/portfolio-website/develop/public/images/demo-photo.png)
+![Image](https://raw.githubusercontent.com/RayceWheat/portfolio-website/main/assets/images/demo-photo.png)
 
 ## Languages used 
 HTML
