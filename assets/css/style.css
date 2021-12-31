@@ -16,7 +16,7 @@
 
 body {
     background-color: #000000;
-    background-image: url("./public/images/background-image.png");
+    background-image: url("../images/background-image.png");
     font-family: 'Oswald', sans-serif; 
 }
 
